@@ -16,19 +16,19 @@ main(){
 	
 	else if(unit<=150){
 		
-		amt = unit*0.75;
+		amt =  25 + (unit-50)*0.75;
 		
 		}
 	
 	else if(unit<=250){	
 		
-		amt = unit*1.20;
+		amt = 100 + (unit-150)*1.20;
 		
 		}
 	
 	else{
 
-		amt = unit*1.50;
+		amt = 220 + (unit-250)*1.50;
 		
 		}
 	
